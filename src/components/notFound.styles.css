@@ -1,0 +1,19 @@
+.notFoundPageWrap {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.notFoundPageWrap p {
+  text-transform: uppercase;
+}
+
+.notFoundPageWrap a {
+  color: #000;
+  text-decoration: none;
+  padding: .5rem 2rem;
+  background: #FFDE00;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+}

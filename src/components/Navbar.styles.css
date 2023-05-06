@@ -1,0 +1,34 @@
+nav {
+  background: #CC0000;
+  display: flex;
+  padding: .5rem 2rem;
+  align-items: center;
+}
+
+nav .logo-wrap {
+  width: 30px;
+  height: auto;
+}
+
+nav .logo-wrap img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 6px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  /* padding: 1rem 2rem; */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
