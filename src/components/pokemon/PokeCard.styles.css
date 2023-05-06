@@ -1,0 +1,25 @@
+.pokecard {
+  width: 15rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.pokecard::after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+  bottom: 0;
+  border-bottom: .5px solid #fff;
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  .pokecard {
+    width: 45%;
+  }
+}
