@@ -1,0 +1,39 @@
+.pokemonSingle {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10% 0 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemonSingle .poke-main-wrap,
+.pokemonSingle .stats {
+  width: 50%;
+}
+
+.pokemonSingle .stats ul {
+  margin-top: 0;
+  padding-inline-start: 20px;
+}
+
+.pokemonSingle .stats ul li {
+  text-transform: uppercase;
+}
+
+.pokemonSingle .poke-main-wrap h1 {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.pokemonSingle .poke-main-wrap img {
+  width: 20rem;
+  image-rendering: pixelated;
+}
+
+@media (max-width: 768px) {
+  .pokemonSingle {
+    flex-direction: column;
+  }
+}
